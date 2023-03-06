@@ -21,7 +21,7 @@ public abstract class CurrentAcc extends BankAcc{
 
 	@Override
 	public String toString() {
-		return "CurrentAcc [AccNO:"+ getAccNo() + " accName:"+ getAccNm()+ " accBalance:"+ getAccBal() + " creditLimit:" + creditLimit + "]";
+		return "CurrentAcc [AccNO:"+ getAccNo() + " accName:"+ getAccNm()+ " accBalance:"+ getAccBal() +"]";
 	}
 
 	
