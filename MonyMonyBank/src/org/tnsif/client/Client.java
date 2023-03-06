@@ -8,8 +8,8 @@ public class Client {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BankFactory f = new MMBankFactory();
-		MMSavingAcc s = new MMSavingAcc(123, "Vaibhav", 1000.0f, true);
-		MMCurrentAcc c = new MMCurrentAcc(234, "Hrush", 2000.0f, 40000.0f);
+		MMSavingAcc s = new MMSavingAcc(123, "Harshada", 1000.0f, true);
+		MMCurrentAcc c = new MMCurrentAcc(234, "Gauri", 2000.0f, 40000.0f);
 		
 		System.out.println("Savings Account:");
 		System.out.println(s);
